@@ -1,6 +1,6 @@
 {
   "name": "react-native-basics-components",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.1",
   "description": "A basic components structure helper",
   "author": "Evgeniy Kirichok <evgeniy.kirichok@gmail.com>",
   "license": "Apache-2.0",
@@ -30,17 +30,16 @@
     "react-native-navigation": "^1.1.485"
   },
   "dependencies": {
-
+    "mkdir-recursive": "^0.4.0"
   },
   "devDependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0",
-    "react-native-navigation": "^1.1.483",
-
+    "react-native-navigation": "^1.1.485",
     "babel-jest": "23.4.2",
     "babel-preset-react-native": "5.0.0",
     "jest": "23.4.2",
-    "react-test-renderer": "16.4.1",
+    "react-test-renderer": "16.4.1"
   },
   "jest": {
     "preset": "react-native"
