@@ -1,19 +1,19 @@
 # react-native-basics-components
 A basic components structure helper
 
-#Install
+## Install
 This is library uses [`react-native-navigation`](https://github.com/wix/react-native-navigation)
 
 1. Install all libraries from the list.
 2. 
 
 
-# Libraries fixes
+## Libraries fixes
  1. Add to `package.json` command on scripts section:
     `"save-lib-src": "node node_modules/react-native-basics-components/scripts/copy.js"`
     
     Then if you added fixes on lib scripts run command for copy this changes, run command in terminal: 
-    `npm run save-lib-src ./node_modules/path/to/libs/fixes/file.js|.gradle|...`
+    `npm run save-lib-src ./node_modules/path/to/libs/fixes/(file.js|.gradle|...)`
 
 2. Add to scripts `postinstall` command
     `"postinstall" : "node node_modules/react-native-basics-components/scripts/update.js"`

@@ -30,7 +30,8 @@
     "react-native-navigation": "^1.1.485"
   },
   "dependencies": {
-    "mkdir-recursive": "^0.4.0"
+    "mkdir-recursive": "^0.4.0",
+    "react-native-device-info": "^0.22.5"
   },
   "devDependencies": {
     "react": "16.4.1",
@@ -43,5 +44,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "node ./node_modules/react-native-basics-components/scripts/link.js"
+    }
   }
 }
